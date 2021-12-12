@@ -1,0 +1,104 @@
+body{
+    max-width: 960px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.table-bordered td, .table-bordered th, .table thead th{
+    border-color: black;
+    border-bottom: 1px solid black;
+}
+
+thead{
+    font-size: 1.5rem;
+    background-color: #e2d6ff;
+}
+
+th, td{
+    text-align: center;
+}
+
+tbody th, tbody td{
+    font-size: 1.2rem;
+}
+
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section{
+    width: 50%;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+
+h4{
+    font-weight: bold;
+    padding: 10px;
+}
+
+iframe{
+    width: 100%;
+    height: 270px;
+    padding: 15px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+p{
+    margin-bottom : 0.5rem;
+    word-break: break-all;
+    padding: 15px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+img{
+    padding-bottom: 5px;
+}
+
+canvas{
+    width: 100%;
+}
+
+@media screen and (max-width: 760px) {
+    section{
+        width: 100%;
+    }
+}
+
+article{
+    text-align: center;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+i{
+    padding: 10px;
+    font-size: 2rem;
+    color: black;
+}
+
+.img-fluid{ 
+    height: 50%;
+    max-height: 350px;
+}
+
+#carouselExampleControls{
+    width: 75%;
+    margin: auto;
+}
+
+#carouselExampleIndicators1, #carouselExampleIndicators2{
+    width: 95%;
+    margin: auto;
+}

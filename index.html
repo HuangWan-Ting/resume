@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mycss.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.js"></script>
+    <script src="https://use.fontawesome.com/3aac789b17.js"></script>
+    <title>我的履歷</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="index.html">
+                <i class="fa fa-trophy" aria-hidden="true"></i>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">我的履歷</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">作品集</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#score">成績</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#english">外語能力證明</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 id="resume">我的履歷</h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th colspan="3">基本資料</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">姓名</th>
+                    <td colspan="2">黃琬庭</td>
+                </tr>
+                <tr>
+                    <th scope="row">出生日期</th>
+                    <td colspan="2">84/09/30</td>
+                </tr>
+                <tr>
+                    <th scope="row">電子郵件</th>
+                    <td colspan="2">amyhwt930@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">行動電話</th>
+                    <td colspan="2">0920892302</td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th colspan="3" class="title">工作經歷</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">109/09/01至今</th>
+                    <td colspan="2">臺北市政府主計處資訊室</td>
+                </tr>
+                <tr>
+                    <th scope="row">大二升大三暑假</th>
+                    <td colspan="2">拓樸龍科技股份有限公司</td>
+                </tr>
+                <tr>
+                    <th scope="row">進大學前暑假</th>
+                    <td colspan="2">奕祥資訊股份有限公司</td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th colspan="3" class="title">就學經歷</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"></th>
+                    <td>大學</td>
+                    <td>碩士</td>
+                </tr>
+                <tr>
+                    <th scope="row">就讀學校</th>
+                    <td>國立政治大學</td>
+                    <td>國立台灣大學</td>
+                </tr>
+                <tr>
+                    <th scope="row">科系</th>
+                    <td>資訊科學系</td>
+                    <td>資訊工程研究所</td>
+                </tr>
+                <tr>
+                    <th scope="row">雙主修</th>
+                    <td>數位內容與科技學士學位學程</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+            <!-- <thead>
+                <tr>
+                    <th colspan="3" class="title">學業表現</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">大三下</th>
+                    <td colspan="2">書卷獎第二名</td>
+                </tr>
+                <tr>
+                    <th scope="row">106年6月</th>
+                    <td colspan="2">通過大專生科技部計畫</td>
+                </tr>
+                <tr>
+                    <th scope="row">大三上</th>
+                    <td colspan="2">書卷獎第二名</td>
+                </tr>
+                <tr>
+                    <th scope="row">大二下</th>
+                    <td colspan="2">書卷獎第一名</td>
+                </tr>
+                <tr>
+                    <th scope="row">大二上</th>
+                    <td colspan="2">書卷獎第一名</td>
+                </tr>
+                <tr>
+                    <th scope="row">大一下</th>
+                    <td colspan="2">書卷獎第一名</td>
+                </tr>
+                <tr>
+                    <th scope="row">大一上</th>
+                    <td colspan="2">書卷獎第一名</td>
+                </tr>
+            </tbody> -->
+            <thead>
+                <tr>
+                    <th colspan="3" class="title">外語能力</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">大三</th>
+                    <td colspan="2">學習第二外語--法文</td>
+                </tr>
+                <tr>
+                    <th scope="row">103年</th>
+                    <td colspan="2">
+                        <a href="#toeic">TOEIC 890分</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">100年</th>
+                    <td colspan="2">
+                        <a href="#midhigh">通過全民英檢中高級初試</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">98年</th>
+                    <td colspan="2">
+                        <a href="#mid">通過全民英檢中級檢定</a>
+                    </td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th colspan="3" class="title">程式語言能力</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3">C, C++, C#(Unity, ASP.NET), Python, HTML, CSS, JavaScript, Java(Android), SQL</td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th colspan="3" class="title">作品集</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- TODO工作 主計服務網 -->
+                <tr>
+                    <th scope="row">碩士論文</th>
+                    <td colspan="2">
+                        <a href="#tactile" style="font-size:medium">Tactile Motion for Breath Guiding in Virtual Reality</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">實驗室</th>
+                    <td colspan="2">
+                        <a href="#cyber" style="font-size:medium">Immersive Data Visualization and Exploration for Analyzing Cyber Threat Information</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">碩二上</th>
+                    <td colspan="2">
+                        <a href="#Game">遊戲設計</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">碩一下</th>
+                    <td colspan="2">
+                        <a href="#VFX">數位視覺效果</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">碩一下</th>
+                    <td colspan="2">
+                        <a href="#AIT">高等互動科技</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">碩一上</th>
+                    <td colspan="2">
+                        <a href="#DIP">數位影像處理</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">碩一上</th>
+                    <td colspan="2">
+                        <a href="#CG">計算機圖形</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大四暑假</th>
+                    <td colspan="2">
+                        <a href="#TAICHI">投稿TAICHI</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大四下</th>
+                    <td colspan="2">
+                        <a href="#8%">數位內容畢業展</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大四上</th>
+                    <td colspan="2">
+                        <a href="#JS">進階程式設計</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大四上</th>
+                    <td colspan="2">
+                        <a href="#projectPoster">專題海報</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大四上</th>
+                    <td colspan="2">
+                        <a href="#projectVideo">專題影片</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大三下</th>
+                    <td colspan="2">
+                        <a href="#CA">電腦動畫</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大三下</th>
+                    <td colspan="2">
+                        <a href="#NM">新媒體創意轉化</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大三下</th>
+                    <td colspan="2">
+                        <a href="#Web">Web程式設計</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大三寒假</th>
+                    <td colspan="2">
+                        <a href="#most">大專生科技部計畫申請書</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大三上</th>
+                    <td colspan="2">
+                        <a href="#Ethereum">軟體工程概論</td>
+                </tr>
+                <!--
+                <tr>
+                    <th scope="row">105-1</th>
+                    <td>作業系統</td>
+                </tr>
+                -->
+                <tr>
+                    <th scope="row">大三上</th>
+                    <td colspan="2">
+                        <a href="#AE">展示科技案例分析</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大三上</th>
+                    <td colspan="2">
+                        <a href="#game">3D遊戲程式設計</a>
+                    </td>
+                </tr>
+                <!--
+                <tr>
+                    <th scope="row">104-2</th>
+                    <td>系統程式</td>
+                </tr>
+                -->
+                <tr>
+                    <th scope="row">大二升大三暑假</th>
+                    <td colspan="2">
+                        <a href="#processing">資科營processing課程</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大二下</th>
+                    <td colspan="2">
+                        <a href="#story">文化脈絡與故事原型</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大二下</th>
+                    <td colspan="2">
+                        <a href="#anim">基礎動畫設計</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大二下</th>
+                    <td colspan="2">
+                        <a href="#DT">設計思維</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大二上</th>
+                    <td colspan="2">
+                        <a href="#GD">遊戲企畫與設計</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">大二上</th>
+                    <td colspan="2">
+                        <a href="#OOP">物件導向程式設計</a>
+                    </td>
+                </tr>
+                <!--
+                <tr>
+                    <th scope="row">104-1</th>
+                    <td>美學概論</td>
+                </tr>
+                -->
+            </tbody>
+        </table>
+        <h1 id="work">作品集</h1>
+        <div class="contain">
+            <section id="tactile">
+                <h5>Tactile Motion for Breath Guiding in Virtual Reality</h5>
+                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="img/cushion.png" alt="震動椅墊">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/TIPInterface.png" alt="設計觸覺指令樣式的介面">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <p style="text-align: left;">製作震動椅墊，以Haptic Maker連接Unity，操控椅墊震動器的震動時間。在Unity中建立設計觸覺指令樣式的介面，在研究使用者們覺得最喜歡、最直覺可以引導呼吸的觸覺指令樣式時，能快速產生使用者心中所想的震動樣式，讓使用者感受。</p>
+                <p style="text-align: left;">透過多個實驗探索要如何設計腹式呼吸及左右交替呼吸的觸覺指令樣式，<!--並提出有關觸覺指令樣式設計的注意事項。-->並研究何種引導呼吸的方式最受大家喜歡。<!--，結果顯示，有觸覺指令的組合是大多數人的首選，因此我們提出一引導呼吸的系統，用虛擬實境提供放鬆的場景及音樂，一開始會有視覺、聽覺及觸覺引導，一分鐘後視覺引導會消失，再一分鐘後聽覺引導會消失，只剩下觸覺來引導呼吸，在最少干擾並擁有放鬆的音樂和場景之下引導使用者呼吸。--></p>
+                <p>使用技術：Unity，Haptic Maker，VR</p>
+                <a href="img/MasterThesis.pdf" target="_blank">碩士論文</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="img/Tactile Motion for Breath Guiding in Virtual Reality.pdf" target="_blank">口試報告</a>
+            </section>
+            <section id="cyber">
+                <h5>Immersive Data Visualization and Exploration for Analyzing Cyber Threat Information</h5>
+                <iframe src="https://www.youtube.com/embed/XKC5zaQY_nk" frameborder="0" allowfullscreen></iframe>
+                <p style="text-align: left;">與趨勢科技合作，研究如何將用STIX表達的資安事件，以視覺化的方式呈現。若在虛擬實境中渲染太多的節點會造成幀率過低，因此使用ECS及C# job system來解決此問題，讓操作及觀看上皆不會有卡頓。</p>
+                <p>使用技術：Unity ECS，VR</p>
+            </section>
+            <section id="Game">
+                <h4>遊戲設計</h4>
+                <iframe src="https://www.youtube.com/embed/HJ71qtsNnqc" frameborder="0" allowfullscreen></iframe>
+                <p>手機遊戲，遊戲apk：<a href="img/點食成菁.apk">點此下載</a></p>
+                <p>使用技術：Unity</p>
+            </section>
+            <section id="VFX">
+                <h4>數位視覺效果</h4>
+                <iframe src="https://www.youtube.com/embed/LXaFzrWQaiU" frameborder="0" allowfullscreen></iframe>
+                <p>使用技術：After Effects，Premiere</p>
+            </section>
+            <section id="AIT">
+                <h4>高等互動科技</h4>
+                <iframe src="https://www.youtube.com/embed/OdjpgX82OBE" frameborder="0" allowfullscreen></iframe>
+                <p>paper連結:<a href="img/AITReport.pdf" target="_blank">FaceTech: An Operation of Using the Distance<br/>Between Face and Computer</a></p>
+                <p><a href="https://huangwan-ting.github.io/AIT-Final/">Demo網頁</a>，不包含face detection</p>
+            </section>
+            <section id="DIP">
+                <h4>數位影像處理</h4>
+                <img src="img/DIPfinal.JPG" alt="數位影像處理" width="100%">
+                <p>巨大壁畫復原(壁畫大小：19320 X 15312)：因壁畫過於巨大需切成許多小塊才能<!--TODO--></p>
+                <p>
+                    <a href="img/DIP_mural.jpg" target="_blank">原壁畫</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="img/restored.jpg" target="_blank">修復壁畫</a>
+                </p>
+                <p>
+                    <a href="img/DIPFinal.pdf" target="_blank">專案報告</a>
+                </p>
+            </section>
+            <section id="CG">
+                <h4>計算機圖學</h4>
+                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="img/Impressionist.png" alt="印象派">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/Expressionist.png" alt="表現主義">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/ColoristWash.png" alt="水彩畫">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/Pointillist.png" alt="點畫">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/depth.png" alt="depth map">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/finalImg1.png" alt="strangeman6">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/finalImg2.png" alt="strangeman6">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h5>
+                    <strong>Immerse In The Oil Canvas</strong>
+                </h5>
+                <p>Oil Painting：參考 <a href="http://webserver2.tecgraf.puc-rio.br/~scuri/inf1378/pub/hertzmann.pdf" target="_blank">Painterly Rendering with Curved Brush Strokes of Multiple Sizes</a> 的方法</p>
+                <p>Depth Map：參考 <a href="https://ieeexplore.ieee.org/abstract/document/6256668" target="_blank">Fast Cost-Volume Filtering for Visual Correspondence and Beyond</a> 的方法</p>
+                <p>
+                    <a href="img/ImmerseInTheOilCanvas.pdf" target="_blank">專案報告</a>
+                </p>
+            </section>
+            <section id="TAICHI">
+                <h4>投稿TAICHI</h4>
+                <img src="img/TAICHI.JPG" alt="TAICHI" width="62%">
+                <p>題目：
+                    <a href="img/TAICHI.pdf" target="_blank">結合搜尋系統的多人協作室內設計</a>
+                </p>
+                <p>報告時間：2018年8月26日到28日</p>
+                <p>接受為口頭報告論文(Oral Presentation)</p>
+            </section>
+            <section id="8%">
+                <h4>數位內容畢業展</h4>
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="img/strangeman1.jpg" alt="strangeman1">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/strangeman2.jpg" alt="strangeman2">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/strangeman3.jpg" alt="strangeman3">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/strangeman4.jpg" alt="strangeman4">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/strangeman5.jpg" alt="strangeman5">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/strangeman6.jpg" alt="strangeman6">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h5>
+                    <strong>一些怪人</strong>
+                </h5>
+                <p>透過臉部偵測和色彩辨識，讓參與者創造屬於自己的怪人，並在觸控投影牆上呈現怪人們的社群。邀請大家來發掘自己的怪，共同建構這個怪人世界。</p>
+                <p>展覽網址：
+                    <a href="http://kvelsrv.no-ip.info/nccudct2018/group04_detail.html" target="_blank">http://kvelsrv.no-ip.info/nccudct2018/group04_detail.html</a>
+                </p>
+            </section>
+            <section id="JS">
+                <h4>進階程式設計</h4>
+                <iframe src="https://www.youtube.com/embed/fJmLiwbLp0A" frameborder="0" allowfullscreen></iframe>
+                <p>遊戲網址：
+                    <a href="https://103703004.github.io/loveRPG/public/LoveRead.html" target="_blank">https://103703004.github.io/loveRPG/public/LoveRead.html</a>
+                </p>
+                <p>使用技術：createJS</p>
+            </section>
+            <section id="projectPoster">
+                <h4>專題海報</h4>
+                <a href="img/專題海報.pdf" target="_blank">
+                    <img src="img/Poster.PNG" alt="專題海報" width="50%">
+                </a>
+            </section>
+            <section id="projectVideo">
+                <h4>專題影片</h4>
+                <iframe src="https://www.youtube.com/embed/okBIMJjyMcU" frameborder="0" allowfullscreen></iframe>
+            </section>
+            <section id="CA">
+                <h4>電腦動畫</h4>
+                <iframe src="https://www.youtube.com/embed/qSCEusbkTpo" frameborder="0" allowfullscreen></iframe>
+                <p>簡介網址：
+                    <br>
+                    <a href="https://103703004.wixsite.com/computeranimation" target="_blank">https://103703004.wixsite.com/computeranimation</a>
+                </p>
+            </section>
+            <section id="NM">
+                <h4>新媒體創意轉化</h4>
+                <iframe src="https://www.youtube.com/embed/jvI36fov70I" frameborder="0" allowfullscreen></iframe>
+                <p>負責部分：使用After Effect製作動畫</p>
+            </section>
+            <section id="Web">
+                <h4>Web程式設計</h4>
+                <img src="img/web.PNG" alt="文山越南美食大搜查" width="50%">
+                <p>(手機版)網址：
+                    <br>
+                    <a href="https://103703004.github.io/final/mainPage.html" target="_blank">https://103703004.github.io/final/mainPage.html</a>
+                </p>
+                <p>負責部分：網頁撰寫</p>
+                <p>使用技術：HTML, CSS, Bootstrap, JQuery, Vue.js</p>
+            </section>
+            <section id="most">
+                <h4>大專生科技部計畫申請書</h4>
+                <img src="img/most.PNG" alt="大專生科技部計畫申請書" width="62%">
+                <p>研究題目：
+                    <a href="img/科技部.pdf" target="_blank">結合虛擬實境的多人協作室內設計</a>
+                </p>
+                <p>研究期程：106年07月01日至107年02月28日</p>
+                <p>榮獲<a href="img/科技部大專學生研究計畫九位學生榮獲研究創作獎.pdf" target="_blank"><strong>大專學⽣參與專題研究計畫研究創作獎</strong></a></p>
+            </section>
+            <section id="Ethereum">
+                <h4>軟體工程概論</h4>
+                <img src="img/fintech.PNG" alt="軟體工程概論" width="100%">
+                <p>使用區塊鏈技術打造募資平台</p>
+                <p>
+                    <a href="img/軟工期末報告.pptx" target="_blank">專案期末報告</a>
+                </p>
+            </section>
+            <section id="AE">
+                <h4>展示科技案例分析</h4>
+                <iframe src="https://www.youtube.com/embed/Ox9rVzc1RzI" frameborder="0" allowfullscreen></iframe>
+                <p>負責部分：
+                    <br>使用After Effect製作動畫及用Premiere做音效及影片剪接</p>
+            </section>
+            <section id="game">
+                <h4>3D遊戲程式設計</h4>
+                <iframe src="https://www.youtube.com/embed/HzTb3WIJfao" frameborder="0" allowfullscreen></iframe>
+                <p>以上為參加五校遊戲競賽的宣傳影片</p>
+                <p>遊戲下載：<a href="https://drive.google.com/file/d/0B7VwAPOHHtseczdndEZUNU5GYVE/view?usp=sharing" target="_blank">點此下載</a>
+                </p>
+                <p>負責部分：使用unity製作遊戲</p>
+            </section>
+            <section id="processing">
+                <h4>資科營processing課程</h4>
+                <canvas id="mysketch" data-processing-sources="mysketch.pde"></canvas>
+                <p>兩人一起玩的桌球遊戲
+                    <br>資科營時做給小隊員們當上完課後的小練習</p>
+            </section>
+            <section id="story">
+                <h4>文化脈絡與故事原型</h4>
+                <iframe src="https://www.youtube.com/embed/gJ8c4rMX0Pk" frameborder="0" allowfullscreen></iframe>
+                <p>故事脈絡：一家人，有小學生、大學生、家庭主婦、爺爺四個人，在吃晚餐時與家人分享一天所聽到的各種聲音</p>
+                <p>負責部分：
+                    <br>前面3分30秒小學生的聲音及圖片(有些是自己錄音及拍攝的)</p>
+            </section>
+            <section id="anim">
+                <h4>基礎動畫設計</h4>
+                <a href="img/海報PDF.pdf" target="_blank">
+                    <img src="img/海報.jpg" alt="藍筱玫" width="50%">
+                </a>
+                <p>使用maya製作人物模型，匯出到Photoshop製作成海報</p>
+            </section>
+            <section id="DT">
+                <h4>設計思維</h4>
+                <iframe src="https://www.youtube.com/embed/s9kcBLTQCpc" frameborder="0" allowfullscreen></iframe>
+                <p>作品名稱：會呼吸的抱枕</p>
+                <p>使用Arduino控制風扇的開關，達到讓抱枕呼吸的效果</p>
+            </section>
+            <section id="GD">
+                <h4>遊戲企畫與設計</h4>
+                <a href="img/期末103703004/期末103703004.html" target="_blank">
+                    <img src="img/gameDesign.png" alt="遊戲企畫與設計" width="˙0%">
+                </a>
+                <p>
+                    <a href="img/期末103703004/期末103703004.html" target="_blank">遊戲網頁</a>
+                </p>
+                <p>
+                    <a href="img/103703004期末作業.pdf" target="_blank">技術應用及功能展示</a>
+                </p>
+            </section>
+            <section id="OOP">
+                <h4>物件導向程式設計</h4>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="img/rpg1.png" alt="rpg1">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/rpg2.png" alt="rpg2">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/rpg3.png" alt="rpg3">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/rpg4.png" alt="rpg4">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/rpg5.png" alt="rpg5">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/rpg6.png" alt="rpg6">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <p>用C++開發的RPG遊戲，充分利用其物件導向功能</p>
+            </section>
+        </div>
+        <!-- <h1 id="score">成績</h1>
+        <article>
+            <h4>歷年平均成績</h4>
+            <img src="img/score.PNG" alt="歷年平均成績" width="62%">
+            <h4>成績排名證明書</h4>
+            <img src="img/成績排名.jpg" alt="成績排名證明書" width="62%">
+            <h4>中文成績單</h4>
+            <img src="img/成績單.jpg" alt="中文成績單" width="90%">
+        </article> -->
+        <h1 id="english">外語能力證明</h1>
+        <article>
+            <h4 id="toeic">TOEIC</h4>
+            <img src="img/toeic.jpg" alt="TOEIC 890分" width="70%">
+            <h4 id="midhigh">全民英檢中高級初試</h4>
+            <img src="img/全民英檢中高級初試.png" alt="全民英檢中高級初試" width="70%">
+            <h4 id="mid">全民英檢中級</h4>
+            <img src="img/全民英檢中級.png" alt="全民英檢中級" width="70%">
+        </article>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script src="myjs.js"></script>
+</body>
+
+</html>
