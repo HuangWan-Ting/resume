@@ -417,7 +417,8 @@
             <section id="DIP">
                 <h4>數位影像處理</h4>
                 <img src="img/DIPfinal.JPG" alt="數位影像處理" width="100%">
-                <p>巨大壁畫復原(壁畫大小：19320 X 15312)：因壁畫過於巨大需切成許多小塊才能<!--TODO--></p>
+                <p style="text-align: left; word-break: normal;">巨大壁畫復原(壁畫大小：19320 X 15312)：因壁畫過於巨大需切割成許多小塊才能做處理，將每小塊壁畫透過color transfer, gain compensation及denoise修復完成後，再次拼接成大壁畫，若直接將修復後的小壁畫接在一起，接縫處能發現有些微色差，因此實作Linear Blending及Multi-Band Blending讓接縫處不會有明顯的色差。</p>
+                <p>使用技術：python，matlab</p>
                 <p>
                     <a href="img/DIP_mural.jpg" target="_blank">原壁畫</a>
                     &nbsp;&nbsp;&nbsp;&nbsp;
