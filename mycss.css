@@ -10,6 +10,11 @@ h1{
     font-weight: bold;
 }
 
+.table th, .table td{
+    text-align: center;
+    vertical-align: middle;
+}
+
 .table-bordered td, .table-bordered th, .table thead th{
     border-color: black;
     border-bottom: 1px solid black;
@@ -18,10 +23,6 @@ h1{
 thead{
     font-size: 1.5rem;
     background-color: #e2d6ff;
-}
-
-th, td{
-    text-align: center;
 }
 
 tbody th, tbody td{
@@ -101,4 +102,9 @@ i{
 #carouselExampleIndicators1, #carouselExampleIndicators2{
     width: 95%;
     margin: auto;
+}
+
+.workProjects{
+    text-align: left !important;
+    font-size: small;
 }
